@@ -162,3 +162,22 @@ li {
     text-decoration: none;
     font-family: "Trebuchet MS", sans-serif;
 }
+
+.fake {
+    background-color: #552244;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fake img {
+    height: 30%;
+    width: 30%;
+}
+
+.fake a {
+    text-decoration: none;
+    color: #725b6a;
+}
