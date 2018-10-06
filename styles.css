@@ -138,10 +138,13 @@ p {
 
 li {
     list-style-type: square;
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 85%;
 }
 
 #details p {
     width: 85%;
+    font-size: 85%;
 }
 
 /* Other Styles */
