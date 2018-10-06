@@ -108,21 +108,21 @@ p {
 }
 
 .workXP {
-    width: 50%;
+    width: 80%;
 }
 
 .edu {
-    width: 50%;
+    width: 80%;
 }
 #fLeft {
     float: left;
-    width: 40%;
+    width: 25;
     clear: both;
 }
 
 .rightContainer {
     float: right;
-    width: 60%;
+    width: 75%;
 }
 
 .exclude {
