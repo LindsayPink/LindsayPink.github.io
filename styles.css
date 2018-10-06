@@ -105,13 +105,26 @@ p {
     padding: 20px;
 }
 
-.exclude {
+.workXP {
+    width: 50%;
+}
+
+.edu {
+    width: 50%;
+}
+#fLeft {
+    float: left;
+    width: 40%;
     clear: both;
 }
 
-#fLeft {
-    float: left;
-    padding-right: 20px;
+.rightContainer {
+    float: right;
+    width: 60%;
+}
+
+.exclude {
+    clear: both;
 }
 
 .delimiter {
