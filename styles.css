@@ -25,7 +25,7 @@ p {
     grid-column: 1 / 3;
     grid-row: 1 / 2;
     width: 100%;
-    background-color: #1c5253;
+    background-color: #552244;
     color: #fff;
     justify-content: center;
     align-items: center;
@@ -35,7 +35,7 @@ p {
 .heading {
     display: flex;
     flex-direction: column;
-    border: 0.025em solid #fff;
+    border: 0.025em solid #F5F0EB;
     padding: 0px 250px;
     justify-content: center;
     align-items: center;
@@ -57,10 +57,11 @@ p {
 #sidebar {
     grid-column: 1 / 2;
     grid-row-start: 2;
-    background-color: #C3EB78;
+    background-color: #F5F0EB;
     margin-left:40px;
     padding: 10px;
     display: block;
+    border-right: 0.5px solid #725b6a;
 }
 
 .photoContainer {
@@ -83,7 +84,7 @@ p {
 }
 
 .delim {
-    background-color: #1C5253;
+    background-color: #000;
 }
 
 #sidebar p {
@@ -100,7 +101,7 @@ p {
     display: block;
     grid-column: 2 / 3;
     grid-row: 2 / 3;
-    background-color: #F3FFC6;
+    background-color: #fff;
     margin-right: 40px;
     padding: 20px;
 }
@@ -130,6 +131,7 @@ p {
 .delimiter {
     background-color: rgb(185, 184, 184);
     clear: both;
+    background-color: #725b6a;
 }
 
 li {
