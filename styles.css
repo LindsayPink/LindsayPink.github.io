@@ -14,7 +14,7 @@ p {
 .contents {
     display: grid;
     grid-template-columns: 1fr 3fr;
-    grid-template-rows: 1fr 5fr;
+    grid-template-rows: 1fr 4fr;
     grid-row-gap: 0.75em;
 }
 
@@ -29,6 +29,7 @@ p {
     color: #fff;
     justify-content: center;
     align-items: center;
+    padding: 20px;
 }
 
 .heading {
@@ -62,7 +63,14 @@ p {
     display: block;
 }
 
+.photoContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .pp {
+    display: flex;
     border-radius: 50%;
     width: 175px;
     height: 175px;
@@ -78,13 +86,32 @@ p {
     background-color: #1C5253;
 }
 
+#sidebar p {
+    position: relative;
+    left: 5px;
+}
+
+#sidebar a {
+    text-decoration: none;
+}
+
 /* Main Content Area Styles*/
 .contents #details {
+    display: block;
     grid-column: 2 / 3;
     grid-row: 2 / 3;
     background-color: beige;
     margin-right: 40px;
     padding: 20px;
+}
+
+.exclude {
+    clear: both;
+}
+
+#fLeft {
+    float: left;
+    padding-right: 20px;
 }
 
 .delimiter {
@@ -94,11 +121,6 @@ p {
 
 li {
     list-style-type: square;
-}
-
-#sidebar p {
-    position: relative;
-    left: 5px;
 }
 
 #details p {
