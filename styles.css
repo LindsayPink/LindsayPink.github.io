@@ -84,7 +84,8 @@ p {
 }
 
 .delim {
-    background-color: #000;
+    background-color: #c0c0c0;
+    margin: 8px;
 }
 
 #sidebar p {
@@ -132,6 +133,7 @@ p {
     background-color: rgb(185, 184, 184);
     clear: both;
     background-color: #725b6a;
+    margin: 0;
 }
 
 li {
@@ -145,7 +147,6 @@ li {
 /* Other Styles */
 .delimiter, .delim {
     height: 2px;
-    margin: 8px;
 }
 
 .upTop {
@@ -154,8 +155,8 @@ li {
     position: relative;
     bottom: 50px;
     right: 50px;
-    background-color: #B6174B;
-    color: #fff;
+    background-color: rgba(85, 34, 68, 0.90);
+    color: #F5F0EB;
     padding: 10px;
     border-radius: 20px;
     text-decoration: none;
