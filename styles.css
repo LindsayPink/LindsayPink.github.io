@@ -4,7 +4,7 @@ body {
 }
 
 h2, h3 {
-    font-family: "Goudy Old Style", serif;
+    font-family: "Goudy Old Style", "Times New Roman", serif;
 }
 
 p {
@@ -36,13 +36,14 @@ p {
     display: flex;
     flex-direction: column;
     border: 0.025em solid #F5F0EB;
+    width: 30%;
     padding: 0px 250px;
     justify-content: center;
     align-items: center;
 }
 
 .fullName {
-    font-family: "Goudy Old Style", serif;
+    font-family: "Goudy Old Style", "Times New Roman", serif;
     font-size: 50px;
     height: 20px
 }
