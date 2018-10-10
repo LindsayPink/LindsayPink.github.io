@@ -45,7 +45,7 @@ p {
 .fullName {
     font-family: "Goudy Old Style", "Times New Roman", serif;
     font-size: 50px;
-    height: 20px
+    height: 20px;
 }
 
 .jTitle {
@@ -100,7 +100,8 @@ p {
 
 /* Main Content Area Styles*/
 .contents #details {
-    display: block;
+    display: flex;
+    flex-direction: column;
     grid-column: 2 / 3;
     grid-row: 2 / 3;
     background-color: #fff;
