@@ -100,8 +100,7 @@ p {
 
 /* Main Content Area Styles*/
 .contents #details {
-    display: flex;
-    flex-direction: column;
+    display: block;
     grid-column: 2 / 3;
     grid-row: 2 / 3;
     background-color: #fff;
