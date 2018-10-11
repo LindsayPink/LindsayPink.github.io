@@ -11,12 +11,6 @@ p {
     font-family: "Trebuchet MS", sans-serif;
 }
 
-.Home {
-    display: grid;
-    justify-content: center;
-    align-items: center;
-}
-
 .contents {
     display: grid;
     grid-template-columns: 1fr 3fr;
